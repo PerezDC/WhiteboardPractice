@@ -2,7 +2,7 @@
 
 namespace WhiteboardPractice
 {
-    class practice
+    class Practice
     {
         public static string ReverseString(string inputString)
         {

@@ -8,8 +8,8 @@ namespace WhiteboardPractice
         {
             string test = "this is a test string";
 
-            Console.WriteLine(practice.ReverseString(test));
-            Console.WriteLine(practice.CountCharacters(test));
+            Console.WriteLine(Practice.ReverseString(test));
+            Console.WriteLine(Practice.CountCharacters(test));
 
         }
     }
