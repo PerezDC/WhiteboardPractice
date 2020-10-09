@@ -13,6 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortString", "SortString\So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoNums", "TwoNums\TwoNums.csproj", "{603050E5-E2F0-4138-99DC-E221A96DCA6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{8457A343-DDAC-4E86-AA2E-973C5FB4EC60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntegerTest", "ReverseIntegerTest\ReverseIntegerTest.csproj", "{57D473C0-53B2-47D4-AD7D-146C2555169C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8457A343-DDAC-4E86-AA2E-973C5FB4EC60} = {8457A343-DDAC-4E86-AA2E-973C5FB4EC60}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +46,14 @@ Global
 		{603050E5-E2F0-4138-99DC-E221A96DCA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{603050E5-E2F0-4138-99DC-E221A96DCA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{603050E5-E2F0-4138-99DC-E221A96DCA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8457A343-DDAC-4E86-AA2E-973C5FB4EC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8457A343-DDAC-4E86-AA2E-973C5FB4EC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8457A343-DDAC-4E86-AA2E-973C5FB4EC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8457A343-DDAC-4E86-AA2E-973C5FB4EC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D473C0-53B2-47D4-AD7D-146C2555169C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D473C0-53B2-47D4-AD7D-146C2555169C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D473C0-53B2-47D4-AD7D-146C2555169C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D473C0-53B2-47D4-AD7D-146C2555169C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
