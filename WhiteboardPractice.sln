@@ -20,9 +20,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseIntegerTest", "Rever
 		{8457A343-DDAC-4E86-AA2E-973C5FB4EC60} = {8457A343-DDAC-4E86-AA2E-973C5FB4EC60}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{282744AE-3A01-4C48-A58A-AA6958236D12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{282744AE-3A01-4C48-A58A-AA6958236D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToIntegerTest", "RomanToIntegerTest\RomanToIntegerTest.csproj", "{45359E5D-733E-444B-B22C-52A5A1256461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToIntegerTest", "RomanToIntegerTest\RomanToIntegerTest.csproj", "{45359E5D-733E-444B-B22C-52A5A1256461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrimeNumber", "IsPrimeNumber\IsPrimeNumber.csproj", "{4CD9D5F8-F4CD-4145-A376-ACA5650D37DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrimeNumberTest", "IsPrimeNumberTest\IsPrimeNumberTest.csproj", "{8E7EA138-F837-4A5E-94FC-E5B959F8F48B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +70,14 @@ Global
 		{45359E5D-733E-444B-B22C-52A5A1256461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45359E5D-733E-444B-B22C-52A5A1256461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45359E5D-733E-444B-B22C-52A5A1256461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD9D5F8-F4CD-4145-A376-ACA5650D37DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD9D5F8-F4CD-4145-A376-ACA5650D37DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD9D5F8-F4CD-4145-A376-ACA5650D37DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD9D5F8-F4CD-4145-A376-ACA5650D37DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7EA138-F837-4A5E-94FC-E5B959F8F48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7EA138-F837-4A5E-94FC-E5B959F8F48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7EA138-F837-4A5E-94FC-E5B959F8F48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7EA138-F837-4A5E-94FC-E5B959F8F48B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

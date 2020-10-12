@@ -18,27 +18,45 @@ namespace RomanToInteger
             romanValues.Add("D", 500);
             romanValues.Add("M", 1000);
 
-            romanIntValue += romanValues[s[s.Length - 1].ToString()];
-
-            for (int i = s.Length - 1; i >= 0; i--)
+            if (s.Length == 1)
             {
-                if (i == 0)
+                romanIntValue += romanValues[s[0].ToString()];
+            }
+            else
+            {
+                for (int i = s.Length - 1; i >= 0; i--)
                 {
-                    romanIntValue += romanValues[s[i].ToString()];
-                    break;
+
+                    if (i == 0 && romanValues[s[i].ToString()] >= romanValues[s[i + 1].ToString()])
+                    {
+                        romanIntValue += romanValues[s[i].ToString()];
+                        break;
+                    }
+
+                    else if (i == 0 && romanValues[s[i].ToString()] < romanValues[s[i + 1].ToString()])
+                    {
+                        romanIntValue -= romanValues[s[i].ToString()];
+                        break;
+                    }
+
+                    if (i == s.Length - 1)
+                    {
+                        romanIntValue += romanValues[s[i].ToString()];
+                        continue;
+                    }
+
+                    else if (i > 0 && romanValues[s[i].ToString()] >= romanValues[s[i + 1].ToString()])
+                    {
+                        romanIntValue += romanValues[s[i].ToString()];
+                        continue;
+                    }
+
+                    else if (i > 0 && romanValues[s[i].ToString()] < romanValues[s[i + 1].ToString()])
+                    {
+                        romanIntValue -= romanValues[s[i].ToString()];
+                        continue;
+                    }
                 }
-
-                if (romanValues[s[i].ToString()] > romanValues[s[i - 1].ToString()])
-                {
-                    romanIntValue -= romanValues[s[i].ToString()];
-                }
-
-                if (romanValues[s[i].ToString()] <= romanValues[s[i - 1].ToString()])
-                {
-                    romanIntValue += romanValues[s[i].ToString()];
-                }
-
-
             }
 
             return romanIntValue;
