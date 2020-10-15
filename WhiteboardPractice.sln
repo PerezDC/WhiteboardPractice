@@ -30,9 +30,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPrimeNumberTest", "IsPrim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleNumber", "SingleNumber\SingleNumber.csproj", "{137A9B61-69B3-4E5D-B358-243DFD7F978A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPalindrome", "IsPalindrome\IsPalindrome.csproj", "{EC1D140D-6F9D-471D-932B-747E960888BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPalindrome", "IsPalindrome\IsPalindrome.csproj", "{EC1D140D-6F9D-471D-932B-747E960888BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPalindromeTest", "IsPalindromeTest\IsPalindromeTest.csproj", "{C37A4180-5B52-4686-8AD9-7FA109DFA752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPalindromeTest", "IsPalindromeTest\IsPalindromeTest.csproj", "{C37A4180-5B52-4686-8AD9-7FA109DFA752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntToRoman", "IntToRoman\IntToRoman.csproj", "{D0E5B74D-533F-4C06-91CC-1FED141BFB17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +98,10 @@ Global
 		{C37A4180-5B52-4686-8AD9-7FA109DFA752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37A4180-5B52-4686-8AD9-7FA109DFA752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C37A4180-5B52-4686-8AD9-7FA109DFA752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
