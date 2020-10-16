@@ -7,20 +7,29 @@ namespace SingleNumber
     {
         public int SingleNumber(int[] nums)
         {
+            int returnNumber = 0;
             Dictionary<int, int> myList = new Dictionary<int, int>();
-            for (int i = 0; i < nums.Length; i++)
+            foreach (int number in nums)
             {
-                if (myList.ContainsKey(nums[i]))
+                if (myList.ContainsKey(number))
                 {
-                    myList.Add(nums[i], +1);
+                    myList[number] += 1;
                 }
                 else
                 {
-                    myList.Add(nums[i], 1);
+                    myList.Add(number, 1);
                 }
             }
 
-            int returnInt = fin
+            foreach (var number in myList)
+            {
+                if (number.Value == 1)
+                {
+                    returnNumber = number.Key;
+                }
+            }
+
+            return returnNumber;
         }
     }
 }

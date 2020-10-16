@@ -6,7 +6,16 @@ namespace SortString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(LetterSort());
+            //Console.WriteLine(LetterSort());
+
+            int x;
+            int value1 = 1;
+            do
+            {
+
+            } while (value1-- > 0);
+
+            Console.WriteLine(value1);
         }
 
 
@@ -30,5 +39,7 @@ namespace SortString
 
             return sortedString;
         }
+
+
 	}
 }
