@@ -34,7 +34,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPalindrome", "IsPalindrom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPalindromeTest", "IsPalindromeTest\IsPalindromeTest.csproj", "{C37A4180-5B52-4686-8AD9-7FA109DFA752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntToRoman", "IntToRoman\IntToRoman.csproj", "{D0E5B74D-533F-4C06-91CC-1FED141BFB17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntToRoman", "IntToRoman\IntToRoman.csproj", "{D0E5B74D-533F-4C06-91CC-1FED141BFB17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortArray", "SortArray\SortArray.csproj", "{7E7D430C-3DCA-422F-BB5A-09F5E2F23242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversedString", "ReversedString\ReversedString.csproj", "{B3F0E52E-ADF8-4E6E-9138-AA622F2BE32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPalindromSpaces", "IsPalindromSpaces\IsPalindromSpaces.csproj", "{C03FA7E5-2A6B-487F-964D-6AC4DF124572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,6 +108,18 @@ Global
 		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E5B74D-533F-4C06-91CC-1FED141BFB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7D430C-3DCA-422F-BB5A-09F5E2F23242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7D430C-3DCA-422F-BB5A-09F5E2F23242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7D430C-3DCA-422F-BB5A-09F5E2F23242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7D430C-3DCA-422F-BB5A-09F5E2F23242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F0E52E-ADF8-4E6E-9138-AA622F2BE32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F0E52E-ADF8-4E6E-9138-AA622F2BE32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F0E52E-ADF8-4E6E-9138-AA622F2BE32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F0E52E-ADF8-4E6E-9138-AA622F2BE32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03FA7E5-2A6B-487F-964D-6AC4DF124572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03FA7E5-2A6B-487F-964D-6AC4DF124572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03FA7E5-2A6B-487F-964D-6AC4DF124572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03FA7E5-2A6B-487F-964D-6AC4DF124572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
